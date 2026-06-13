@@ -96,7 +96,7 @@ Edit `backend/.env`:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/consultation_recordings
+MONGODB_URI=mongodb+srv://nirbhey07_db_user:u5tLqVNJPBDoRFFI@cluster0.6hdzuha.mongodb.net/?appName=Cluster0
 JWT_SECRET=your_super_secret_jwt_key_change_in_production
 JWT_EXPIRES_IN=7d
 MAX_FILE_SIZE=104857600
