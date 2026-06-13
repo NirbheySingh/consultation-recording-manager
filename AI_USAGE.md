@@ -1,78 +1,48 @@
-# AI Usage Disclosure
+# AI_USAGE.md
 
-This document describes how AI tools were used in the development of the **Consultation Recording Manager** project.
+# AI Usage Declaration
 
 ## Overview
 
-AI assistance was used throughout the planning, implementation, and documentation phases of this project. All generated code was reviewed, understood, and validated manually before being included in the final deliverable.
+AI tools were used as a development assistant during the creation of the Consultation Recording Manager project. The assistance was primarily used for learning, code suggestions, debugging support, and documentation.
 
-## How AI Was Used
+All major implementation decisions, project structure, testing, and final integration were performed manually.
 
-### 1. Architecture Planning
+## Areas Where AI Was Used
 
-AI assisted with designing the overall application architecture, including:
+### Code Assistance
 
-- Separation of frontend and backend into distinct directories
-- RESTful API endpoint design
-- MongoDB schema design for User and Recording models
-- JWT-based authentication flow
-- File upload strategy using Multer with local disk storage
+* Generating initial boilerplate code for frontend and backend setup.
+* Suggesting API route structures and project organization.
+* Assisting with debugging and resolving development issues.
+* Providing examples for authentication, file uploads, and database integration.
 
-### 2. Boilerplate Generation
+### Documentation Support
 
-AI generated the initial project scaffolding and boilerplate code, including:
+* Assisting in drafting the README file.
+* Helping prepare setup instructions and project documentation.
+* Assisting in creating this AI usage declaration.
 
-- Express.js server setup with middleware configuration
-- Mongoose models with validation rules
-- React component structure and routing configuration
-- Axios API service layer with interceptors
-- Context providers for authentication and toast notifications
-- CSS styling for a responsive, professional dashboard UI
+### Learning and Research
 
-### 3. Documentation Assistance
+* Understanding best practices for Express.js, React, MongoDB, and JWT authentication.
+* Exploring approaches for file upload handling using Multer.
+* Reviewing software architecture patterns and project organization.
 
-AI helped produce:
+## Manual Contributions
 
-- This README with setup instructions and API documentation
-- Environment variable examples (`.env.example` files)
-- Folder structure explanations
-- This AI usage disclosure document
+The following activities were completed manually:
 
-### 4. Implementation Details
-
-Specific features implemented with AI assistance:
-
-- User registration and login with bcrypt password hashing
-- JWT middleware for protected routes
-- Multer file upload with type and size validation
-- Recording CRUD operations with search, filter, and sort
-- Dashboard statistics aggregation
-- React pages for dashboard, recordings list, upload, and details
-- Upload progress indicator
-- Toast notification system
-- Responsive CSS layout
-
-## Manual Review and Testing
-
-The final implementation was reviewed and tested manually, including:
-
-- Verification of all API endpoints and error handling
-- Frontend form validation and user flow testing
-- File upload with supported formats (mp3, wav, mp4, mov)
-- Authentication flow (register, login, logout, protected routes)
-- Search, filter, and sort functionality
-- Download and delete operations
-- Responsive layout on different screen sizes
-
-## Developer Responsibility
-
-The developer is responsible for:
-
-- Providing accurate MongoDB connection credentials
-- Configuring production environment variables
-- Ensuring compliance with data privacy requirements for client recordings
-- Ongoing maintenance and security updates
+* Project planning and feature selection.
+* Integration of frontend and backend components.
+* Database configuration and testing.
+* Validation of application functionality.
+* UI customization and improvements.
+* Testing API endpoints and user workflows.
+* Final debugging and deployment preparation.
 
 ## Transparency Statement
 
-This project was built with AI-assisted development tools to accelerate boilerplate generation and documentation. The architecture, feature set, and code structure follow the project requirements specification. All code is functional and intended for educational or production use after proper environment configuration.
+AI was used as a productivity and learning tool during development. The final project was reviewed, modified, tested, and validated manually before submission. All implementation decisions and final deliverables remain the responsibility of the developer.
+
+Developer: Nirbhey Singh
